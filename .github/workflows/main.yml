@@ -24,7 +24,7 @@ jobs:
           (cd debugger && make clean)
           (cd kdebugger && make clean)
           (cd installer && make clean)
-          ./build.sh
+          bash build.sh
 
       - name: Salvar arquivo
         uses: actions/upload-artifact@v4
